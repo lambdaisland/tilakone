@@ -10,11 +10,11 @@
    :extra-deps {org.clojure/clojure {:mvn/version "1.10.0"},
                 org.clojure/tools.namespace {:mvn/version "0.2.11"},
                 prismatic/schema {:mvn/version "1.1.9"},
-                dorothy {:mvn/version "0.0.7"},
-                eftest {:mvn/version "0.5.4"},
+                dorothy/dorothy {:mvn/version "0.0.7"},
+                eftest/eftest {:mvn/version "0.5.4"},
                 metosin/testit {:mvn/version "0.4.0-SNAPSHOT"},
-                criterium {:mvn/version "0.4.4"},
-                reduce-fsm {:mvn/version "0.1.4"}}}
+                criterium/criterium {:mvn/version "0.4.4"},
+                reduce-fsm/reduce-fsm {:mvn/version "0.1.4"}}}
 
   :test
   {:extra-paths ["modules/core/test"
